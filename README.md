@@ -16,7 +16,7 @@ The processor has the following interface:
 
 Here is the microarchitecture I drew up
 
-[./arch.png](Single-Cycle (non-pipelined) MIPS microarchitecture supporting 16 instructions)
+[Single-Cycle (non-pipelined) MIPS microarchitecture supporting 16 instructions](./arch.png "architecture")
 
 Repository structure
 
