@@ -14,10 +14,6 @@ The processor has the following interface:
     - Clock (`clk` -> 1 bit)
     - Asynchronous reset for processor initialization and for mimicking program load (`rst` -> 1 bit)
 
-Here is the microarchitecture I drew up
-
-![Single-Cycle (non-pipelined) MIPS microarchitecture supporting 16 instructions](./arch.png "architecture")
-
 Repository structure
 
   - `design_sources` - actual VHDL code for the MIPS CPU
@@ -28,3 +24,7 @@ Repository structure
   - `vivado_project` - Xilinx Vivado repository for project management
 
 This project was fun. I don't really want to touch VHDL in the near future.
+
+Here is the microarchitecture I drew up
+
+![Single-Cycle (non-pipelined) MIPS microarchitecture supporting 16 instructions](./arch.png "architecture")
